@@ -1,17 +1,16 @@
 import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
 
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCVAS1P4mFRyyAORwHP7jNZVc0EbwTLD_s",
-  authDomain: "indrive-app-clone-bd966.firebaseapp.com",
-  projectId: "indrive-app-clone-bd966",
-  storageBucket: "indrive-app-clone-bd966.firebasestorage.app",
-  messagingSenderId: "11472100806",
-  appId: "1:11472100806:web:833225e0c6008614cf66c7"
+  apiKey: "AIzaSyDi5MJtIEZw1sKG8np7SvXOpAkUXAAv81g",
+  authDomain: "e-learning-219.firebaseapp.com",
+  projectId: "e-learning-219",
+  storageBucket: "e-learning-219.appspot.com",
+  messagingSenderId: "627620378008",
+  appId: "1:627620378008:web:2a8af205e2e39fc0e567ed"
 };
 
 
-const app = initializeApp(firebaseConfig);
-export const auth = getAuth(app);
+
+export const app = initializeApp(firebaseConfig);
